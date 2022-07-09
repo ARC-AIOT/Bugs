@@ -1,4 +1,3 @@
-
 In correct situation, you should see the following string
 in your terminal if you setup baud rate correctly:
 "QQ"
@@ -11,3 +10,8 @@ Prog should show "This is Lab1_UART" instead.
 
 But you'll found that there will show Nothing after you remove 
 printf("QQ\n");
+
+*** 
+Sometimes the bug won't show.
+Just turn off the switch and turn on again to reproduce the bug.
+***

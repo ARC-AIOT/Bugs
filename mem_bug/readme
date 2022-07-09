@@ -1,0 +1,10 @@
+Once build the prog, you can see that the value
+of arr2, whose memory is dynamically allocated, is
+incorrect compare to arr1 whose memry is statically
+allocated.
+The array arr3 using calloc has same situation.
+
+*** 
+Sometimes the bug won't show.
+Just turn off the switch and turn on again to reproduce the bug.
+***

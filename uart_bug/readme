@@ -10,3 +10,8 @@ In src/main.c ,line 28
 
 You'll found that terminal will show
 ".) .)" instead of "3.141000 1.732000" .
+
+*** 
+Sometimes the bug won't show.
+Just turn off the switch and turn on again to reproduce the bug.
+***
