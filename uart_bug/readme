@@ -1,0 +1,12 @@
+
+In correct situation, you should see the following string
+in your terminal if you setup baud rate correctly:
+"Magic"
+"3.141000 1.732000"
+
+If you remove the code
+printf("Magic\n");
+In src/main.c ,line 28
+
+You'll found that terminal will show
+".) .)" instead of "3.141000 1.732000" .
